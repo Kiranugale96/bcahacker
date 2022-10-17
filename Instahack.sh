@@ -406,7 +406,7 @@
 
  banner() { 
 
-         cat <<- EOF 
+         cat <<-
 
                  ${ORANGE} 
 
@@ -852,4 +852,4 @@
 
          echo -ne "\n${RED}[${WHITE}-${RED}]${BLUE} Starting PHP server..."${WHITE} 
 
-         cd .server/www &&
+         
